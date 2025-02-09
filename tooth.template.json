@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/GroupMountain/Genshin",
+    "version": "<TOOTH_VERSION>",
+    "info": {
+        "name": "Genshin",
+        "description": "Download and Install Genshin on Your Device",
+        "author": "GroupMountain",
+        "tags": [
+            "genshin",
+            "game"
+        ]
+    },
+	"asset_url": "<URL>",
+    "files": {
+        "remove": [
+            "<PACKAGE_NAME>"
+        ]
+    },
+    "platforms": [
+        {
+            "commands": {
+                "post_install": [
+                    ".\\<PACKAGE_NAME>"
+                ]
+            },
+            "goos": "windows"
+        }
+    ]
+}
