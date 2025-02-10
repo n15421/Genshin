@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/GroupMountain/Genshin",
+    "version": "1.0.0",
+    "info": {
+        "name": "Genshin",
+        "description": "Download and Install Genshin on Your Device",
+        "author": "GroupMountain",
+        "tags": [
+            "genshin",
+            "game"
+        ]
+    },
+    "commands": {
+        "post_install": [
+            "start https://ys.mihoyo.com/cloud/?autobegin=1"
+        ]
+    },
+    "files": {}
+}
