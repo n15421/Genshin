@@ -2,11 +2,11 @@
     "format_version": 3,
     "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
     "tooth": "github.com/n15421/Genshin",
-    "version": "5.5.0",
+    "version": "2025.4.6",
     "info": {
         "name": "Genshin",
         "description": "Download and install Genshin",
-        "tags": [],
+        "tags": ["Genshin"],
         "avatar_url": "https://ys.mihoyo.com/main/favicon.ico"
     },
     "variants": [
