@@ -1,24 +1,22 @@
 {
     "format_version": 3,
-    "format_uuid": "74b42648-01de-4f5b-a427-1d5e0c8bf881",
+    "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
     "tooth": "github.com/n15421/Genshin",
-    "version": "2025.4.6",
+    "version": "2025.4.7",
     "info": {
         "name": "Genshin",
         "description": "Download and install Genshin",
-        "tags": [
-            "Genshin"
-        ],
+        "tags": ["game:genshin"],
         "avatar_url": "https://ys.mihoyo.com/main/favicon.ico"
     },
     "variants": [
         {
             "platform": "win-x64",
             "dependencies": {
-                "github.com/n15421/Genshin#launcher": "{{version}}",
-                "github.com/n15421/Genshin#cloudgame": "{{version}}",
-                "github.com/n15421/Genshin#biligame": "{{version}}",
-                "github.com/n15421/Genshin#launcherglobal": "{{version}}"
+              "github.com/n15421/Genshin#launcher": "{{version}}",
+              "github.com/n15421/Genshin#cloudgame": "{{version}}",
+              "github.com/n15421/Genshin#biligame": "{{version}}",
+              "github.com/n15421/Genshin#launcherglobal": "{{version}}"
             }
         },
         {
@@ -26,26 +24,19 @@
             "platform": "win-x64",
             "assets": [
                 {
-                    "type": "uncompressed",
-                    "urls": [
-                        "https://autopatchcn.yuanshen.com/client_app/download/launcher/20241225164539_9oyGHAOXvzP4uaBW/mihoyo/yuanshen_setup_202412201736.exe"
-                    ],
+                    "type" : "uncompressed",
+                    "urls" : ["https://autopatchcn.yuanshen.com/client_app/download/launcher/20241225164539_9oyGHAOXvzP4uaBW/mihoyo/yuanshen_setup_202412201736.exe"],
                     "placements": [
                         {
-                            "type": "file",
-                            "src": "",
-                            "dest": "yuanshen_launcher.exe"
+                          "type": "file",
+                          "src": "",
+                          "dest": "yuanshen_launcher.exe"
                         }
-                    ]
+                      ]
                 }
             ],
-            "remove_files": [
-
-            ],
             "scripts": {
-                "post_install": [
-                    ".\\yuanshen_launcher.exe"
-                ]
+                "post_install": [".\\yuanshen_launcher.exe"]
             }
         },
         {
@@ -53,26 +44,19 @@
             "platform": "win-x64",
             "assets": [
                 {
-                    "type": "uncompressed",
-                    "urls": [
-                        "https://autopatchcn.yuanshen.com/client_app/download/cloudgame/pc/20250317165755_KdSbj51HpnPYNrpc/cbu102/yscloud_5.5.0.exe"
-                    ],
+                    "type" : "uncompressed",
+                    "urls" : ["https://autopatchcn.yuanshen.com/client_app/download/cloudgame/pc/20250317165755_KdSbj51HpnPYNrpc/cbu102/yscloud_5.5.0.exe"],
                     "placements": [
                         {
-                            "type": "file",
-                            "src": "",
-                            "dest": "yuanshen_cloudgame.exe"
+                          "type": "file",
+                          "src": "",
+                          "dest": "yuanshen_cloudgame.exe"
                         }
-                    ]
+                      ]
                 }
             ],
-            "remove_files": [
-
-            ],
             "scripts": {
-                "post_install": [
-                    ".\\yuanshen_cloudgame.exe"
-                ]
+                "post_install": [".\\yuanshen_cloudgame.exe"]
             }
         },
         {
@@ -80,26 +64,19 @@
             "platform": "win-x64",
             "assets": [
                 {
-                    "type": "uncompressed",
-                    "urls": [
-                        "https://pkg.biligame.com/games/yuanshen_setup_202412201837/888966/yuanshen_setup_202412201837.exe"
-                    ],
+                    "type" : "uncompressed",
+                    "urls" : ["https://pkg.biligame.com/games/yuanshen_setup_202412201837/888966/yuanshen_setup_202412201837.exe"],
                     "placements": [
                         {
-                            "type": "file",
-                            "src": "",
-                            "dest": "yuanshen_biligame.exe"
+                          "type": "file",
+                          "src": "",
+                          "dest": "yuanshen_biligame.exe"
                         }
-                    ]
+                      ]
                 }
             ],
-            "remove_files": [
-
-            ],
             "scripts": {
-                "post_install": [
-                    ".\\yuanshen_biligame.exe"
-                ]
+                "post_install": [".\\yuanshen_biligame.exe"]
             }
         },
         {
@@ -107,26 +84,19 @@
             "platform": "win-x64",
             "assets": [
                 {
-                    "type": "uncompressed",
-                    "urls": [
-                        "https://download-porter.hoyoverse.com/download-porter/2025/01/02/GenshinImpact_install_202412201651.exe"
-                    ],
+                    "type" : "uncompressed",
+                    "urls" : ["https://download-porter.hoyoverse.com/download-porter/2025/01/02/GenshinImpact_install_202412201651.exe"],
                     "placements": [
                         {
-                            "type": "file",
-                            "src": "",
-                            "dest": "yuanshen_launcherglobal.exe"
+                          "type": "file",
+                          "src": "",
+                          "dest": "yuanshen_launcherglobal.exe"
                         }
-                    ]
+                      ]
                 }
             ],
-            "remove_files": [
-
-            ],
             "scripts": {
-                "post_install": [
-                    ".\\yuanshen_launcherglobal.exe"
-                ]
+                "post_install": [".\\yuanshen_launcherglobal.exe"]
             }
         }
     ]
